@@ -1,7 +1,6 @@
 body {
-    background-color: #aa9cae;
+    background-color: black;
     text-align: center;
-    font-size: 3em;
 }
 
 h1 {
@@ -10,4 +9,18 @@ h1 {
 
 p {
     font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    height: 500px;
+    background-color: black;
+    padding-top: 120px;
+}
+
+.brain {
+    width: 30%;
+}
+
+.brain:hover {
+    width: 31%;
 }
