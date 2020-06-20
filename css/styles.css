@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    margin: 0;
     text-align: center;
 }
 
@@ -12,15 +12,28 @@ p {
 }
 
 .top-container {
-    height: 500px;
+    position: relative;
+    height: 100vh;
     background-color: black;
-    padding-top: 120px;
 }
 
-.brain {
+.brain-container {
+    width: 50%;
+    height: 100%;
+}
+
+.brain-img {
     width: 30%;
+    margin-top: 120px;
 }
 
-.brain:hover {
-    width: 31%;
+.left-brain-container {
+    position: absolute;
+    top: 0;
+}
+
+.right-brain-container {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
