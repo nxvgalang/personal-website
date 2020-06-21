@@ -23,8 +23,14 @@ p {
 }
 
 .brain-img {
+    position: relative;
     width: 30%;
     margin-top: 120px;
+    z-index: 1;
+}
+
+.brain-img:hover {
+    width: 31%;
 }
 
 .left-brain-container {
