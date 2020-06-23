@@ -20,31 +20,31 @@ body {
     color: white;
 }
 
-.brain-container {
+.profile-container {
     width: 50%;
     height: 100%;
 }
 
-.brain-img {
+.art-img {
     position: relative;
-    width: 30%;
-    margin-top: 120px;
+    width: 45%;
+    margin-top: 20px;
     z-index: 1;
 }
 
-.left-brain-container {
+.left-profile-container {
     position: absolute;
     top: 0;
 }
 
-.right-brain-container {
+.right-profile-container {
     position: absolute;
     top: 0;
     right: 0;
 }
 
 .first-name {
-    margin: 350px 180px 0 0;
+    margin: 350px 100px 0 0;
 }
 
 .last-name {
