@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-/* Brain Area */
+/* Header Area */
 
 .menu-icon {
     position: absolute;
@@ -15,9 +16,6 @@ body {
 .top-container {
     position: relative;
     height: 820px;
-    background-color: black;
-    text-align: center;
-    color: white;
 }
 
 .profile-container {
@@ -25,10 +23,10 @@ body {
     height: 100%;
 }
 
-.art-img {
+.profile-img {
     position: relative;
-    width: 45%;
-    margin-top: 20px;
+    width: 40%;
+    margin-top: 50px;
     z-index: 1;
 }
 
@@ -64,7 +62,6 @@ body {
 
 .bottom-container {
     margin: auto;
-    text-align: center;
     height: 230px;
 }
 
